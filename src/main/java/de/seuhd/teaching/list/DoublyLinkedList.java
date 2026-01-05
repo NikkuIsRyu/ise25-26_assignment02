@@ -116,7 +116,7 @@ public class DoublyLinkedList {
      * @return true if the list is empty
      */
     public boolean isEmpty() {
-        return begin == null && end == null && length == 0;
+        return begin == null && end == null && length == 0; //gibt ein True zurück wenn Doublylinkedlist komplett leer ist
     }
 
     /**
